@@ -2,12 +2,6 @@
     .view {
         width: 400px;
     }
-}
-@media screen and (max-width: 780px) {
-    .view {
-        width: 600px;
-    }
-}
 li{
 	list-style:none;
 }
@@ -164,7 +158,7 @@ header nav ul li a:hover{
 	color:white;
 	
 }
-
+}
 
 
 
