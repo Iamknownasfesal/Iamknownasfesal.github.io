@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="style/cover.css">
 
+
     <title>Brainless</title>
 	
 	    <style>
@@ -38,7 +39,22 @@
 	  {
 		background-color:#23000D;
 	  }
-	  @media (max-width:700px)
+	  @media (min-width:770px)
+	  {
+		body
+		{
+			height:100%;
+		}
+	  }
+	  
+	  @media (max-height:700px)
+	  {
+		body
+		{
+			height:100%;
+		}
+	  }
+	  @media (max-height:667px)
 	  {
 		body
 		{
@@ -80,7 +96,7 @@
 	  
 	  
 
-	  <main role="main" class="inner cover content-body">
+	  <main role="main" class="inner cover content-body container-xl">
 		<div class="card border-dark">
 		   <div class="card-header">
 			  <h4 id="v10" class="card-title">Alpha v1.0</h4>
